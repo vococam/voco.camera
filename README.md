@@ -6,5 +6,5 @@ Halo? tu mówi kamera ... [voco.camera](https://www.voco.camera) - monitoring st
 Halo?
 - tu mówi kamera
 ```
+![obraz](https://github.com/user-attachments/assets/ddbc94f0-4b51-44d8-b89d-4da9b470efc8)
 
-![obraz](https://github.com/user-attachments/assets/624ea734-c6fa-41a7-8ace-6b49c088ae11)
