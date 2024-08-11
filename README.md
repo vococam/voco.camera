@@ -7,3 +7,4 @@ Halo?
 - tu mówi kamera
 ```
 
+![obraz](https://github.com/user-attachments/assets/624ea734-c6fa-41a7-8ace-6b49c088ae11)
