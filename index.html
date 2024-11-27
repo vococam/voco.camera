@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voco.camera - Smart Camera Analysis</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+<!-- Navigation -->
+<nav class="bg-white shadow-lg">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+            <div class="flex items-center space-x-4">
+<!--                <img src="/api/placeholder/40/40" alt="Voco.camera logo" class="h-10">-->
+                <span class="text-xl font-bold">voco.camera</span>
+            </div>
+            <div class="flex space-x-6">
+                <a href="#features" class="text-gray-700 hover:text-blue-600">Features</a>
+                <a href="#pricing" class="text-gray-700 hover:text-blue-600">Pricing</a>
+                <a href="#demo" class="text-gray-700 hover:text-blue-600">Demo</a>
+                <a href="#privacy" class="text-gray-700 hover:text-blue-600">Privacy</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="bg-blue-600 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+        <div class="flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <h1 class="text-4xl font-bold mb-4">Your Camera, Now with AI Vision</h1>
+                <p class="text-xl mb-6">Transform any camera into a smart observer. Just say "voco" and get instant analysis of what's happening.</p>
+                <button class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+                    Try it Free
+                </button>
+            </div>
+            <div class="md:w-1/2">
+                <div class="bg-black rounded-lg p-2">
+                    <video width="100%" autoplay loop muted class="rounded">
+                        <source src="/api/placeholder/640/360" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Demo Section -->
+<section id="demo" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">See It in Action</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <video width="100%" controls class="mb-4 rounded">
+                    <source src="/api/placeholder/640/360" type="video/mp4">
+                </video>
+                <div class="border-l-4 border-blue-600 pl-4">
+                    <p class="text-gray-700">AI Analysis: "Two people walking through the office, one carrying a laptop, discussing a presentation on the wall-mounted screen."</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="mb-6">
+                    <h3 class="text-xl font-semibold mb-4">Add Your Camera</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-gray-700 mb-2">Camera Protocol</label>
+                            <select class="w-full border rounded-lg p-2">
+                                <option>RTSP</option>
+                                <option>ONVIF</option>
+                                <option>HTTP Stream</option>
+                                <option>WebRTC</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2">Camera URL/IP</label>
+                            <input type="text" placeholder="rtsp://camera-ip:554/stream" class="w-full border rounded-lg p-2">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2">Credentials (Optional)</label>
+                            <input type="text" placeholder="Username" class="w-full border rounded-lg p-2 mb-2">
+                            <input type="password" placeholder="Password" class="w-full border rounded-lg p-2">
+                        </div>
+                        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+                            Connect Camera
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Section -->
+<section id="pricing" class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Simple Pricing</h2>
+        <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-4">Test Drive</h3>
+                <div class="text-4xl font-bold mb-4">$9<span class="text-lg font-normal">/hour</span></div>
+                <ul class="text-left space-y-4 mb-6">
+                    <li class="flex items-center">
+                        <i class="fas fa-check text-green-500 mr-2"></i>
+                        Single camera support
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-check text-green-500 mr-2"></i>
+                        Real-time AI analysis
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-check text-green-500 mr-2"></i>
+                        Voice activation
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-check text-green-500 mr-2"></i>
+                        Event recording
+                    </li>
+                </ul>
+                <button class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition w-full">
+                    Start Trial
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Privacy Section -->
+<section id="privacy" class="py-16">
+    <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8">Privacy & Security</h2>
+        <div class="space-y-6">
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Data Processing</h3>
+                <p class="text-gray-700">All video analysis is performed in real-time. We do not store video footage unless explicitly requested during an event trigger. Stored footage is encrypted and automatically deleted after 24 hours.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Security Measures</h3>
+                <ul class="list-disc pl-6 text-gray-700">
+                    <li>End-to-end encryption for all video streams</li>
+                    <li>Secure authentication and access control</li>
+                    <li>Regular security audits and penetration testing</li>
+                    <li>GDPR and CCPA compliant</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Your Rights</h3>
+                <p class="text-gray-700">You have full control over your data. You can request data deletion, export your data, or modify your privacy settings at any time through your account dashboard.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-12">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <h4 class="text-lg font-semibold mb-4">About</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-blue-400">Company</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Team</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Support</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-blue-400">Documentation</a></li>
+                    <li><a href="#" class="hover:text-blue-400">API</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Status</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Legal</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-blue-400">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Terms of Service</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-blue-400"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="hover:text-blue-400"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 pt-8 border-t border-gray-700 text-center">
+            <p>&copy; 2024 <a href="http://www.telemonit.com">telemonit</a> & voco.camera. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
